@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.input{
+  height: 40px;
+}
+.heading{
+  color: white;
+  font-size: 44px;
+}
+
+.App {
+  background-image: linear-gradient(#0558af,#1514ce);
+  height: 100vh;
+  padding-bottom: 80px;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  gap: 30px;
+  padding-top: 50px;
+}
+.input-container img{
+  height: 40px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 40px;
+  cursor: pointer;
+
+}
+.input-container input {
+  width: 280px;
+  border-radius: 40px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+}
+.cloud{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin-top: 30px;
+}
+.cloud img{
+  height: 250px;
+}
+.humidity{
+  height: 80px;
+}
+.humidity-container{
+  display: flex;
+  justify-content: center;
+  width:100vw;
+  gap: 40px;
+  align-items: center;
+  margin-top: 20px;
+}
+.humidity-container h3{
+  font-size: 40px;
+  font-weight: 500;
+  
+}
+.name{
+  color: lavenderblush;
+}
+.error-container{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-bottom: 20px;
+}
+.error{
+  font-size: 40px;
+  color: red;
+  font-weight: 600;
+}
